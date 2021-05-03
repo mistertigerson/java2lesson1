@@ -35,7 +35,7 @@ public class Pet {
         return new Random().nextInt(14) + 1;
     }
 
-    public String getInfo(){
+    public final String getInfo(){
         return "age " + age + "\n"  + "color"  + color + "\n" + " shelter " + shelter;
     }
 

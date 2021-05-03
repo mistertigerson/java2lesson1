@@ -1,6 +1,6 @@
 package com.company;
 
-public class Dog extends Pet{
+public final class Dog extends Pet{
     private String name;
     private String breed;
     private String[] commands;
@@ -65,8 +65,4 @@ public class Dog extends Pet{
 
     }
 
-    public String getInfo(){
-        return super.getInfo() + " name " + name + "\n" + " breed " + breed + "\n"  + " commands " + commands;
-
-    }
 }

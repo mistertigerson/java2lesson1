@@ -8,9 +8,11 @@ public class Main {
         Dog puppy = new Dog("puppy", "овчарка", new String[] {"лежать", "лаять"}, Color.BLACK,
                 shelter);
         puppy.makeVoice("гав гав", 2);
+        puppy.getInfo();
 
         Dog laika = new Dog("laika", "хаски", shelter, Color.WHITE);
         laika.makeVoice(4,"yyy ");
+        laika.getInfo();
 
         Dog bars = new Dog();
         bars.setName("bars");
@@ -19,6 +21,7 @@ public class Main {
         bars.setColor(Color.BROWN);
         bars.setShelter(shelter);
         bars.makeVoice(3, "угу");
+        bars.getInfo();
 
     }
 }
